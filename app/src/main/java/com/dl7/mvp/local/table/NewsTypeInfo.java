@@ -15,50 +15,32 @@ public class NewsTypeInfo {
     private Long id;
     private String name;
     private String typeId;
-
-
     @Generated(hash = 1707873593)
     public NewsTypeInfo(Long id, String name, String typeId) {
         this.id = id;
         this.name = name;
         this.typeId = typeId;
     }
-
     @Generated(hash = 215923915)
     public NewsTypeInfo() {
     }
-
-
     public Long getId() {
-        return id;
+        return this.id;
     }
-
     public void setId(Long id) {
         this.id = id;
     }
-
     public String getName() {
-        return name;
+        return this.name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public String getTypeId() {
-        return typeId;
+        return this.typeId;
     }
-
     public void setTypeId(String typeId) {
         this.typeId = typeId;
     }
 
-    @Override
-    public String toString() {
-        return "NewsTypeBean{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", typeId='" + typeId + '\'' +
-                '}';
-    }
 }
